@@ -1,4 +1,13 @@
 {
 	"prefix": "!",
-	"token": "NTQ0MDA2NjE3NzAwNDk5NDY2.D0E1uw.5EF7e45UlIDFqvhl2XwvXWYCgGY"
+    "token": "NTQ0MDA2NjE3NzAwNDk5NDY2.D0E1uw.5EF7e45UlIDFqvhl2XwvXWYCgGY",
+    "serverId":"544009554858606598",
+    "roleNames": {
+        "bot": "Bot Thot",
+        "restricted": "laurier reject"
+    },
+    "restriction":{
+        "low": 0,
+        "high": 21
+    }
 }

@@ -6,9 +6,8 @@
         {
             "type": "npm",
             "script": "install",
-            "group": {
-                "kind": "install",
-            }
+            "group": "build"
+                
         },
         {
             "type": "npm",
