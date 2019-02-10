@@ -4,6 +4,7 @@
   "description": "Discord bot. Also screw js.",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
