@@ -5,5 +5,9 @@
     "roleNames": {
         "bot": "Bot Thot",
         "restricted": "laurier reject"
+    },
+    "restriction":{
+        "low": 0,
+        "high": 21
     }
 }
