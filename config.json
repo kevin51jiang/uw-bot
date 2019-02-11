@@ -5,8 +5,12 @@
         "bot": "Bot",
         "restricted": "Grinding"
     },
-    "restriction":{
+    "restriction": {
         "low": 9,
         "high": 21
-    }
+    },
+    "allowedChannelIds": [
+        538186271093424148,
+        518946501108695050
+    ]
 }
