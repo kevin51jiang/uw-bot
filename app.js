@@ -16,6 +16,7 @@ client.on('message', msg => {
             role.name === config.roleNames.restricted) 
         && !msg.member.roles.some(role =>
                 role.name === config.roleNames.bot)
+        && isInAllowedChannel(msg)
         && currentHour > config.restriction.low - 1 
         && currentHour < config.restriction.high ) {
 
@@ -29,6 +30,18 @@ client.on('message', msg => {
             
     }
 });
+
+isInAllowedChannel = (msg) => {
+    let inAllowedChannel = false;
+    for(i = 0 ; i < config.allowedChannelIds.length; i++) {
+        if (config.allowedChannelIds[i] === msg.channel.id) {
+            inAllowedChannel = true;
+            break;
+        }
+    }
+
+    return inAllowedChannel;
+};
 
 log.enableAll();
 client.login(config.token);
